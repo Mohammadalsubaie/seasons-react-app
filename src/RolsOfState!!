@@ -1,0 +1,18 @@
+only usable with class componetns
+You will confuse props with state :(
+'State' is a JS object that contains data revelent to a componetns
+Updating 'State' on a componetns causes the componetns to (almost) instantly rerender 
+STATE MUST BE INITIALIZED WHEN  A componetns IS CREATED
+State can be only be updated using the function 'setState'
+
+
+
+//Note: In JavaScript, it gets all blurry and fuzzy , but it also gets easier. In JavaScript "Classes"
+are just a kind of JavaScript code, a collection of properties and methods strung together as a single object,
+used to create "Instances" , which are also just object. there is a "new" keyword in the languge
+and it works to create Instances, but unlike c++ or other languages which actually reflect how computers really 
+work, the "new" keyword just invokes an ordinary function as if it's purposw was to create an instance.
+same function code you might use for a regular method, different pattern, different result. But the 
+distinction is minor, because the result is just an object (always a "reference", not a "Pointer to actual memory")
+and its lifecycle is not different from any othe object
+//Note: SetState is a function that can puts in our app componetns automatic when we extend it react.component
